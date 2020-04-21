@@ -2,7 +2,7 @@
 
 ## writeCode
 
-Follow the instruction and write code just below the instruction.
+Follow the instructions and write code just below the instruction.
 
 - Create a variable named `character` using `let` and assign a value of blank object to it.
 
@@ -16,26 +16,26 @@ Follow the instruction and write code just below the instruction.
 // your code goes here
 ```
 
-- Re-assign the value of `charator` variable to and object with the key `charatorName` and value of the first name of your charactor. example "Arya"
+- Re-assign the value of `character` variable to and object with the key `charaterName` and value of the first name of your character. example "Arya"
 
 ```js
 // your code goes here
 ```
 
-- A variable named `age` is predeined to 20. Add a new key named `character-age` with the value of age variable.
+- A variable named `age` is predefined to 20. Add a new key named `character-age` with the value of age variable.
 
 ```js
 let age = 20;
 // your code goes here
 ```
 
-- Add a new key named `sur name` with the vlaue of the surname of the cahractor i.e "Stark"
+- Add a new key named `surname` with the vlaue of the surname of the cahracter i.e "Stark"
 
 ```js
 // your code goes here
 ```
 
-- Add a new key named `title` with the value title of the charactor (you will find in the right side bar) i.e "Lady of Winterfell"
+- Add a new key named `title` with the value title of the character (you will find in the right side bar) i.e "Lady of Winterfell"
 
 ```js
 // your code goes here
@@ -47,7 +47,7 @@ let age = 20;
 // your code goes here
 ```
 
-- Add a new property named `isFemale` and value will be either `true` or `false` according to the charactor.
+- Add a new property named `isFemale` and value will be either `true` or `false` according to the character.
 
 ```js
 // your code goes here
@@ -65,13 +65,15 @@ let age = 20;
 // your code goes here
 ```
 
-- Check by calling `greet` and see if the message changed or not.
+- Check by calling `greet` and see if the message is changed or not.
 
 ```js
 // your code goes here
 ```
 
-- `let keyName = "playedBy";`- Add a new key with the value stored in `keyName` variable the value of the Played by in right side bar. (use the variable name to do this)
+- `let keyName = "playedBy";`- Add a new key with the value stored in `keyName` variable the value of the played by in right side bar. (use the variable name to do this)
+
+//FEEDBACK: Above line is not clear, especially second part of the sentence.
 
 ```js
 // your code goes here
@@ -83,19 +85,19 @@ let age = 20;
 // your code goes here
 ```
 
-- Write a `for..in` loop to `console.log()` all the key of the object character.
+- Write a `for..in` loop to `console.log()` all the keys of the object character.
 
 ```js
 // your code goes here
 ```
 
-- Write a `for..in` loop to log the all the key value pair seperated by `-` like `charactorName - Arya`.
+- Write a `for..in` loop to log the all the key value pair seperated by `-` like `characterName - Arya`.
 
 ```js
 // your code goes here
 ```
 
-- Using the function `console.log log` the value of the key `42`.
+- Using the function `console.log` to log the value of the key `42`.
 
 ```js
 // your code goes here
@@ -129,13 +131,13 @@ var city = prompt("Enter the city name you visited las time.");
 
 ```js
 let keyValue = "username";
-let charactor = {
+let character = {
   username: "arya"
 };
 // 1.
-console.log(charactor["keyValue"]);
+console.log(character["keyValue"]);
 // 2.
-console.log(charactor[keyValue]);
+console.log(character[keyValue]);
 ```
 
 - What will be the output of 1 and 2.

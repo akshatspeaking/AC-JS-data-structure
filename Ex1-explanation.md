@@ -4,11 +4,11 @@
 
 - Objects are non-primitve data type.
 - Use `{}` to define an object also known as Object Literal
-- Objects are collection of `key` and `value` pair seperated by comma.
+- Objects are collection of `key` and `value` pairs seperated by comma.
 - `key` and `value` is seperated by `:`
 - `value` can be primitive or non-primitive data types.
 - Objects are mutable (can be changed)
-- Object does not retain the order you defined the keys
+- Object does not retain the order you defined the keys.
 
 Example:
 
@@ -20,7 +20,7 @@ let user = {
 
 ![Object](./assets/object.png)
 
-There are operations like accessing, assigning, deleting or updating we can do on objects. To do this we use two property accessor:
+There are operations like accessing, assigning, deleting or updating we can do on objects and their properties. To do this we can use two types of property accessors:
 
 - Dot Notation (`.`)
 - Bracket Notation (`[]`)
@@ -34,15 +34,15 @@ let username = {
   isAdult: true
 };
 
-// to access the value of key name using dot notation
+// to access the value of key `name` using dot notation
 console.log(username.name); // "Arya"
 ```
 
-Using **DOT NOTATION** you can access the value of any key in object by specifying the name of the object (`username`) followed by `.` (dot notation), followed by the name of the key liek `username.name`.
+Using **DOT NOTATION** you can access the value of any key in object by specifying the name of the object (`username`) followed by `.` (dot notation), followed by the name of the key, like `username.name`.
 
 While using `Dot Notation` you key value can only be **alphanumeric** (including `_` and `$`). Key name can't start with number.
 
-**SUMMERY:**
+**SUMMARY:**
 
 - key can only be alphanumeric (including `_` and `$`)
 - key cant start with number
@@ -56,7 +56,7 @@ let username = {
   house: "Stark",
   isAdult: true
 };
-// to access the value of key name using bracket notation
+// to access the value of key `name` using bracket notation
 console.log(username["name"]); // "Arya"
 ```
 
@@ -86,7 +86,7 @@ user[activeUser];
 
 In above code `user[activeUser];` bracket notation does two thing
 
-- Compute the value inside bracket notation. That means the value of activeUser is computed that is "arya"
+- Compute the value inside bracket notation. That means the value of activeUser is computed, that is "arya"
 - Access the key (acces the arya key from object)
 
 Another Example:
@@ -105,10 +105,12 @@ starks[6 - 5];
 // output will be "Arya" because bracket notation does two thing. Compute the value inside bracket notation and access the value
 ```
 
-**SUMMERY:**
+**SUMMARY:**
 
 - If accessing a key it should be in string
-- You can use variable name , number etc.
+- You can use variable name, number etc.
+
+//FEEDBACK: above two points are not clear.
 
 #### Assigning, Re-assigning and deleting
 
@@ -134,17 +136,17 @@ Convert all of the above code to do the same using bracket notation.
 ```js
 //1. add new key called surname and value "Stark"
 //2. re-assign the value of surname key to "Noone"
-//3. delete the key anem surname
+//3. delete the key surname
 ```
 
 ## Array-readText
 
-Array is a collection of only values keys are indexed (starts with 0 and keeps going up).
+Array is a collection of only values, while keys are indexed (starts with 0 and keeps going up numerically).
 
 - collection of values
 - defined using `[]`
 - keys are indexed (starts from 0 ...)
-- Always use bracket notation to access it beacuse keys are number.
+- Always use bracket notation to access it's values beacuse keys are number.
 - Convention is to keep the values of array of same data types.
 
 Example:
@@ -155,6 +157,7 @@ let starks = ["Arya", "Sansa", "Rob", "Bran"];
 
 // accessing values
 starks[0]; // "Arya"
+starks[2]; // "Rob"
 ```
 
 ### Primitive vs Non-Primitive
@@ -168,7 +171,7 @@ let num = 21;
 num = 30;
 ```
 
-In above code you can see you are changing the value of `num` variable from 21 to 30. THe whole value is changed.
+In above code you can see you are changing the value of `num` variable from 21 to 30. The whole value is changed.
 
 ```js
 let user = {

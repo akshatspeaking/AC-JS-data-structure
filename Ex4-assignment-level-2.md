@@ -20,7 +20,7 @@
 // your code goes here
 ```
 
-- Using `console.log` log the value of `user name` key from the user object.
+- Using `console.log` log the value of `username` key from the user object.
 
 ```js
 // your code goes here
@@ -74,11 +74,11 @@
 // your code goes here
 ```
 
-- Add a value of an array to the key `siblings` key. Array will be `["Robb","Ryan"]`
+- Add a value of an array to the `siblings` key. Array will be `["Robb","Ryan"]`
 
 - Access the first index of the sibling.
 
-- Add another value to the key `siblings` array `"Bran"`
+- Add another value `"Bran"` to the key `siblings` array.
 
 - Log the last entered value
 
