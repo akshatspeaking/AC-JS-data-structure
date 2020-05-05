@@ -8,8 +8,8 @@ user.name = "Sansa";
 console.log(user.name);
 ```
 
-- Is the code above is valid or invalid.
-- Can we change the variable defined with const. Explain with reason.
+- Is the code above valid or invalid?
+- Can we change the variable defined with const? Explain with reason.
 - What will be the output and why?
 
 ## writeTextAnswer
